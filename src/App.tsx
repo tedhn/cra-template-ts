@@ -1,6 +1,5 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-
 import i18n from "./locales/i18n";
 
 const App: React.FC = () => {
