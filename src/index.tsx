@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
 
 import configureAppStore from "./store/configureStore";
-import App from "./App";
+import App from "./App/components/App/App";
 import "./locales/i18n";
 
 const store = configureAppStore();
